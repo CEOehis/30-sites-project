@@ -1,0 +1,87 @@
+body {
+	font-family: -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+	line-height: 1.2;
+	font-size: 2.5em;
+}
+
+
+.navbar {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	font-size: 20px;
+
+}
+
+.navbar-default {
+    background-color: #4A2B13;
+    border-color: #4A2B13;
+}
+
+.navbar-brand{
+	font-size: inherit;
+	font-weight: bold;
+}
+
+.padding {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.foot-pad {
+	padding-bottom: 70px;
+}
+
+.bg-home {
+	background-color: #E28C1C ;
+	background-size: contain;
+	color: #C69238FF;
+	margin-top: 80px;
+}
+
+.bg-about {
+	color: #4A2B13;
+}
+
+.bg-about h2 {
+	font-weight: bold;
+}
+
+.bg-portfolio {
+	color: #4A2B13;
+}
+
+.bg-portfolio p{
+	font-size: 16px
+}
+.footer {
+	background-color: #4A2B13;
+	color: #ffffff;
+}
+.foot {
+	font-size: 16px;
+}
+
+.brandy {
+	padding: 20px;
+}
+
+.footer>ul>li{
+	display: inline-block;
+}
+
+#about ul li {
+	list-style: none;
+}
+
+.foot a,ul li a {
+	color: inherit;
+}
+
+a:focus, a:hover{
+	color: #4A2B13;
+}
+
+.foot a:focus, .foot a:hover {
+	color: grey;
+	text-decoration: none
+}

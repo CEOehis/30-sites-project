@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Celestine Ekoh-Ordan's portfolio</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" type="text/css" href="./styles/bootstrap.min.css">
+    <!-- fontsawesome -->
+    <link rel="stylesheet" type="text/css" href="./styles/font-awesome.min.css">
+    <!-- my own stylesheet -->
+    <link rel="stylesheet" type="text/css" href="./styles/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNav">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">CEO</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNav">
+                <ul class="nav navbar-nav navbar-left">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="#" class="container-fluid padding bg-home">
+        <div class="">
+        	<div class="row"><div class="col-sm-4 picplay">
+            <img src="./images/celestine.jpg" height="300" width="300" class="img-responsive img-rounded img-thumbnail text-center" alt="celestine">            
+            </div>
+            <div class="col-sm-8">
+
+            <p>Hi, Celestine Ekoh-Ordan here</p>
+            <p>I am a self-taught web developer, specializing in front-end and back-end web technologies. I love thinking up creative solutions to generic problems. I'm probably watching a football match or gaming when I'm not coding away at my pc keyboard.</p>
+            <p>Plus, I make mean noodles!</p>
+            </div>
+        	
+            </div>
+        </div>
+    </div>
+    <div id="about" class="container-fluid padding bg-about text-center">
+    	<p>Some of my skill set</p>
+    	<hr>
+    	<div class="row">
+    		<div class="col-sm-6">
+    		<h2>Front-end skill</h2>
+    			<ul>
+    				<li>HTML 5</li>
+    				<li>CSS 3</li>
+    				<li>Bootstrap</li>
+    				<li>Javascript</li>
+    			</ul>
+    		</div>
+    		<div class="col-sm-6">
+    		<h2>Back-end skill</h2>
+    			<ul>
+    				<li>Node JS</li>
+    				<li>REACT</li>
+    				<li>PHP</li>
+    				<li>SQL</li>
+    			</ul>
+    		</div>
+    	</div>
+
+    </div>
+    <div id="portfolio" class="container-fluid padding bg-portfolio">
+        <h2>Here are some of my recent projects</h2>
+        <div class="row">
+            
+            <div class="col-sm-4">
+            <div class="thumbnail">
+<a target="_blank" href="https://ceoehis.github.io"><img src="./images/blogsite.png" class="img-responsive"  /></a>
+        	<div class="caption"><h2>My jekyll website</h2>
+        	<p>A site where i host my projects and also blog. It was built using the jekyll ruby gem. </p>
+                </div>
+            </div>
+            </div>
+            <div class="col-sm-4">
+<div class="thumbnail">
+            <a target="_blank" href="https://ceoehis.github.io/random-quote-generator"><img src="./images/quote-machine.png" class="img-responsive" /></a>
+            <div class="caption">
+        	<h2>Quote generator</h2>
+        	<p>Get random quotes at the click of a button! Quotes span across different genres</p>
+                </div>
+            </div>
+            </div>
+            <div class="col-sm-4">
+            <div class="thumbnail">
+            <a target="_blank" href="https://ceoehis.github.io/weather-app"><img src="https://unsplash.it/1023/639?image=1061" class="img-responsive" /></a>
+            <div class="caption">
+        	<h2>Weather App</h2>
+        	<p>Displays a users current location and weather conditions</p>
+                
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div id="contact" class="container-fluid foot-pad">
+        <h2>Let's Communicate</h2>
+        <br>
+        <form id="contact-form" method="POST" action="https://formspree.io/ceo.ehis@outlook.com">
+            <div class="form-group">
+                <label for="name">Your name is:</label>
+                <input class="form-control" type="text" name="name" placeholder="e.g John Smith" required="required">
+            </div>
+            <div class="form-group">
+                <label for="email">Your email address is:</label>
+                <input class="form-control" type="text" name="email" placeholder="e.g john.smith@gmail.com" required="required">
+            </div>
+            <div class="form-group">
+                <label for="message-title">You'd like to talk about:</label>
+                <input class="form-control" type="text" name="message-title" placeholder="e.g How about that mean noodles you talk about :-)" required="required">
+            </div>
+        <div class="form-group">
+            <label for="message">Tell me more about it:</label>
+            <textarea class="form-control" rows="5" name="message" placeholder="I'll be reading this be nice :)" required="required"></textarea>
+        </div>
+        <input type="hidden" name="_next" value="#" />
+        <div>
+            <button type="submit" class="btn btn-lg btn-success">Submit</button>
+        </div>
+        </form>
+    </div>
+    <div class="container-fluid footer">
+        <ul class="nav navbar-nav navbar-left text-center">
+            <li><a target="_blank" href="http://twitter.com/ceo_ehis"><i class="fa fa-twitter"></i></a></li>
+            <li><a target="_blank" href="http://facebook.com/ceo.ehis"><i class="fa fa-facebook"></i></a></li>
+            <li><a target="_blank" href="https://github.com/ceoehis"><i class="fa fa-github"></i></a></li>
+            <li><a target="_blank" href="http://codepen.io/ceo_ehis"><i class="fa fa-codepen"></i></a></li>
+            <li><a target="_blank" href="http://freecodecamp.com/ceoehis"><i class="fa fa-free-code-camp"></i></a></li>
+        </ul>
+        <p class="foot navbar-nav navbar-right brandy text-center">
+            designed with <i style="color:red;" class="fa fa-heartbeat"></i> by <a href="https://github.com/ceoehis">ceo</a>
+        </p>
+    </div>
+    <!-- jquery -->
+    <script type="text/javascript" src="./scripts/jquery-3.2.1.min.js"></script>
+    <!-- bootstrap js -->
+    <script type="text/javascript" src="./scripts/bootstrap.min.js"></script>
+</body>
+
+</html>

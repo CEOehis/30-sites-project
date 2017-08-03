@@ -1,0 +1,50 @@
+body,
+html {
+    height: 95%;
+}
+
+#intro {
+    background-image: url("../images/stanford-hills-big.jpg");
+    background-color: #FFB61E;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    color: white;
+    text-shadow: 5px 5px 10px black;
+    font-size: 1.5em;
+}
+
+
+
+.padding {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.foot {
+    background-color: hsl(165, 55%, 70%);
+    color: white;
+}
+
+.foot ul>li {
+    display: inline-block;
+    font-size: 1.5em;
+}
+
+.foot ul>li>a {
+    color: white;
+}
+
+.foot ul>li>a:hover {
+    color: green;
+    background-color: hsl(165, 55%, 70%);
+}
+
+#brandy {
+    padding: 15px;
+}
